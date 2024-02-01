@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "native-app",
-    "slug": "native-app",
-    "version": "1.0.0",
+    "name": "Protons",
+    "slug": "protons",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.twice.protons"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5ac55b8-cf5b-422c-81c0-c457b549a107"
+      }
     }
   }
 }
